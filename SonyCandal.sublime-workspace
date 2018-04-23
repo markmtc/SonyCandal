@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/SonyCandal.cpp",
+			"settings":
+			{
+				"buffer_size": 2283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/core/coreManager.h",
+			"settings":
+			{
+				"buffer_size": 575,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/core/iState.h",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Repos/SonyCandal/source/core/StateManager.h",
+		"/C/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0/bits/basic_string.h",
+		"/C/Repos/SonyCandal/source/core/MenuState.h",
+		"/C/Repos/SonyCandal/source/SonyCandal.cpp",
+		"/C/Repos/SonyCandal/source/core/iState.h",
+		"/C/devkitPro/libogc/include/wiiuse/wpad.h",
+		"/C/devkitPro/libogc/include/ogc/video.h",
+		"/C/Repos/PruebaWii/Makefile",
+		"/C/devkitPro/examples/wii/template/source/template.c",
+		"/C/devkitPro/examples/wii/graphics/gx/triangle/source/triangle.c",
+		"/C/devkitPro/examples/wii/graphics/gx/triangle/Makefile",
+		"/D/Projects/Projects/SimuladorLuz/SimuladorLuz/Maquina.h",
+		"/D/Imagenes/51Vvbw46ISL._SS500_.h",
+		"/C/devkitPro/examples/wii/graphics/gx/neheGX/lesson02/source/lesson2.c",
+		"/C/Repos/AutoCapacitanceMeter2a/CapacitanceMeter.h",
+		"/C/Repos/AutoCapacitanceMeter2a/AutoCapacitanceMeter2a.pde",
+		"/C/Repos/AutoCapacitanceMeter2a/CapacitanceMeter.cpp",
+		"/D/Projects/Projects/SimuladorLuz/SimuladorLuz/Contexto.h",
+		"/C/ReposGitLab/lib_mod_impresion/Fuentes/libImpresionSimple/libImpresionSimple/Eventos.cs",
+		"/C/Program Files (x86)/A3/A3Erp/Extensiones/Sascom/Sascom/Diccionarios/DicImpresionSimple/PreActualizaciones.xml",
+		"/C/Repos/E2/e2/Ficha.cpp",
+		"/C/Repos/E2/e2/GeneraPuzzle.cpp",
+		"/C/Repos/E2/e2/GeneraPuzzle.h",
+		"/C/Repos/E2/e2/Helpers.cpp",
+		"/C/Program Files (x86)/A3/ERP/Sistema.Custom/Sistema/ConfigCliente.Xml",
+		"/C/Program Files (x86)/A3/ERP/Sistema.Custom/Sistema/Extensiones/Sascom/Sascom/Diccionarios/DicImpresionSimple/PreActualizaciones.xml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\devkitPro\\devkitPPC\\powerpc-eabi",
+			"C:\\devkitPro\\libogc",
+			"C:\\devkitPro\\devkitPPC\\powerpc-eabi"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hash",
+			"hash.h",
+			"SYMBOL"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/SonyCandal.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/core/coreManager.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/core/iState.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SonyCandal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

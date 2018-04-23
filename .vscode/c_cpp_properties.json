@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Wii",
+            "includePath": [
+                "C:/devkitPro/msys2/usr/include",
+                "C:/devkitPro/devkitPPC/powerpc-eabi/include",
+                "C:/devkitPro/devkitPPC/lib/gcc/powerpc-eabi/6.3.0/include",
+                "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0/tr1",
+                "C:/devkitPro/libogc/include",
+                "${workspaceFolder}/source",
+                "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0",
+                "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0/powerpc-eabi"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "C:/devkitPro/msys2/usr/include",
+                    "C:/devkitPro/devkitPPC/powerpc-eabi/include",
+                    "C:/devkitPro/devkitPPC/lib/gcc/powerpc-eabi/6.3.0/include",
+                    "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0/tr1",
+                    "C:/devkitPro/libogc/include",
+                    "${workspaceFolder}/source",
+                    "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0",
+                    "C:/devkitPro/devkitPPC/powerpc-eabi/include/c++/6.3.0/powerpc-eabi"
+                    ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 3
+}

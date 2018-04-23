@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "C:\\devkitPro\\devkitPPC\\powerpc-eabi"
+		},
+		{
+			"path": "C:\\devkitPro\\libogc"
+		},
+		{
+			"path": "."
+		}
+	]
+}
