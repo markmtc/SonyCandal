@@ -1,6 +1,6 @@
 #ifndef __COREMANAGER_H__
 #define __COREMANAGER_H__ 
-#include <singleton.h>
+#include "core/Singleton.h"
 
 namespace SonyCandal
 {
@@ -14,10 +14,10 @@ namespace SonyCandal
 		~CoreManager(); // Finalización de los recursos
 		int run(); // Inicio del gestor de estados
 		// Funciones para acceder a los recursos globales
-		InputReader* getInputReader() { return m_inputReader; }
+		//InputReader* getInputReader() { return m_inputReader; }
 	private:
 	// Recursos globales
-	InputReader* m_inputReader;
+	//InputReader* m_inputReader;
 	};
 }
 #endif
