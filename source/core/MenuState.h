@@ -2,6 +2,7 @@
 #define __MENUSTATE_H__
 
 #include "core/iState.h"
+#include "core/StateManager.h"
 
 namespace SonyCandal
 {
