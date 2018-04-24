@@ -4,7 +4,7 @@
 // #include <wiiuse/wpad.h>
 // #include "core/iState.h"
 // #include "core/StateManager.h"
-#include "core/CoreManager.h"
+#include "CoreManager.h"
 
 // static void *xfb = NULL;
 // static GXRModeObj *rmode = NULL;
@@ -13,9 +13,10 @@
 int main(int argc, char **argv) {
 //---------------------------------------------------------------------------------
 
-   	SonyCandal::CoreManager *core = SonyCandal::CoreManager::getSingletonPtr();
+   	CoreManager *core = CoreManager::getSingletonPtr();
 	core->run();
 	delete(core);
+	
 
 	// Initialise the video system
 	// VIDEO_Init();
