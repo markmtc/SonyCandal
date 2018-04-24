@@ -1,6 +1,6 @@
 #ifndef __COREMANAGER_H__
 #define __COREMANAGER_H__ 
-#include "core/Singleton.h"
+#include "Singleton.h"
 
 namespace SonyCandal
 {
@@ -8,9 +8,9 @@ namespace SonyCandal
 		: public Singleton<CoreManager>
 	{
 	public:
-		static CoreManager* getSingletonPtr();
-		static CoreManager& getSingleton();
-		CoreManager(); // Inicialización de los recursos
+		//static CoreManager* getSingletonPtr();
+		//static CoreManager& getSingleton();
+		//CoreManager(); // Inicialización de los recursos
 		~CoreManager(); // Finalización de los recursos
 		int run(); // Inicio del gestor de estados
 		// Funciones para acceder a los recursos globales
