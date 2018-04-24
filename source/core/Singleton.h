@@ -33,7 +33,9 @@ namespace SonyCandal
 	 		}
 	
 	 	static T* getSingletonPtr( void )
-			{ 
+			{
+				if (msSingleton==nullptr)
+					msSingleton = new T();
 				return msSingleton; 
 			}
 	};
