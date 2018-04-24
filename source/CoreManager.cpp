@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "CoreManager.h"
 
+CoreManager *CoreManager::m_CoreManager;
 
 int CoreManager::run()
 {
@@ -10,9 +11,9 @@ int CoreManager::run()
 //CoreManager* CoreManager::getSingletonPtr()
 
 
-CoreManager& CoreManager::getSingleton()
-{
-    if (CoreManager::m_CoreManager==nullptr)
-        CoreManager::m_CoreManager=new CoreManager();
-    return *CoreManager::m_CoreManager;
-}
+// CoreManager& CoreManager::getSingleton()
+// {
+//     if (CoreManager::m_CoreManager==nullptr)
+//         CoreManager::m_CoreManager=new CoreManager();
+//     return *CoreManager::m_CoreManager;
+// }

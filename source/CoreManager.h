@@ -1,29 +1,31 @@
-//#ifndef __COREMANAGER_H__
-//#define __COREMANAGER_H__ 
+ #ifndef __COREMANAGER_H__
+ #define __COREMANAGER_H__ 
 
 using namespace std;
 
 class CoreManager
 {
+private:
+	static CoreManager*  m_CoreManager;
+
 public:
 	~CoreManager(){}; // Finalización de los recursos
 
 	static CoreManager* getSingletonPtr()
 	{
-    	if (m_CoreManager==nullptr)
+    	if (CoreManager::m_CoreManager==nullptr)
         	{m_CoreManager=new CoreManager();}
    
 		return m_CoreManager;
 	};
 
-	static CoreManager& getSingleton();
+	//static CoreManager& getSingleton();
 
 	int run();
-	
 private:
-    int a;
-	static  CoreManager*  m_CoreManager;
-	CoreManager(){a=0;};
+	CoreManager(){};
+	
+
 
  // Inicio del gestor de estados
 
@@ -35,5 +37,5 @@ private:
 //InputReader* m_inputReader;
 };
 
-//#endif
+#endif
 
