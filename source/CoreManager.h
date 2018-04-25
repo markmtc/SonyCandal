@@ -7,23 +7,14 @@ class CoreManager
 {
 private:
 	static CoreManager*  m_CoreManager;
+	CoreManager(){};
 
 public:
-	~CoreManager(){}; // Finalización de los recursos
-
-	static CoreManager* getSingletonPtr()
-	{
-    	if (CoreManager::m_CoreManager==nullptr)
-        	{m_CoreManager=new CoreManager();}
-   
-		return m_CoreManager;
-	};
-
-	//static CoreManager& getSingleton();
+	~CoreManager(){}; 
+	static CoreManager* getSingletonPtr();
+	static CoreManager& getSingleton();
 
 	int run();
-private:
-	CoreManager(){};
 	
 
 
