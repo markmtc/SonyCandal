@@ -13,7 +13,8 @@ public:
 	~CoreManager(){}; 
 	static CoreManager* getSingletonPtr();
 	static CoreManager& getSingleton();
-
+	void lecturaDatosEntrada(double timeElapsed);
+	void modificarDispositivosSalida(double timeElapsed);
 	int run();
 	
 

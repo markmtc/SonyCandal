@@ -19,6 +19,15 @@ CoreManager& CoreManager::getSingleton()
     return *CoreManager::m_CoreManager;
 }
 
+void CoreManager::lecturaDatosEntrada(double timeElapsed)
+{
+
+}
+
+void CoreManager::modificarDispositivosSalida(double timeElapsed)
+{
+
+}
 
 int CoreManager::run()
 {

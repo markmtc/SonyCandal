@@ -21,13 +21,13 @@ class GameState
     void update(double timeElapsed)
     {
         CoreManager &core = CoreManager::getSingleton();
-        // core.lecturaDatosEntrada(timeElapsed);
+        core.lecturaDatosEntrada(timeElapsed);
         // core.lecturaDatosDeRed(timeElapsed);
         // core.lecturaDatosIA(timeElapsed);
         // core.getFisica().update(timeElapsed);
         // core.getLogica().updateReglasDeJuego(timeElapsed);
         // core.enviarCambiosDeEstadoPorRed(timeElapsed);
-        // core.modificarDispositivosSalida(timeElapsed);
+         core.modificarDispositivosSalida(timeElapsed);
     }
 };
 
