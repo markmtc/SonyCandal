@@ -2,10 +2,12 @@
 #include "CoreManager.h"
 #include <gccore.h>
 #include <wiiuse/wpad.h>
+#include "GameState.h"
 
 CoreManager* CoreManager::m_CoreManager;
 void *CoreManager::xfb = NULL;
 GXRModeObj *CoreManager::rmode = NULL;
+
 
 CoreManager::CoreManager()
 {
@@ -21,6 +23,11 @@ CoreManager::CoreManager()
     VIDEO_Flush();
     VIDEO_WaitVSync();
 	if(rmode->viTVMode&VI_NON_INTERLACE) VIDEO_WaitVSync();
+
+    CoreManager::stateManager = new StateManager();
+    CoreManager::stateManager->registerState("GAME", new GameState());
+
+    CoreManager::stateManager->changeTo("GAME");
 }
 
 CoreManager* CoreManager::getSingletonPtr()

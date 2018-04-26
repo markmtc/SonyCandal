@@ -18,6 +18,8 @@ class GameState
   public:
     void enter() { /* Inicializar nivel del juego */}
     void leave() { /* Liberar recursos del nivel del juego */}
+    void pause() { }
+    void resume() { }
     void update(double timeElapsed)
     {
         CoreManager &core = CoreManager::getSingleton();

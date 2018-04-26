@@ -1,6 +1,7 @@
  #ifndef __COREMANAGER_H__
  #define __COREMANAGER_H__ 
 #include <gccore.h>
+#include "StateManager.h"
 
 using namespace std;
 
@@ -10,6 +11,8 @@ private:
 	static CoreManager*  m_CoreManager;
 	static void *xfb;
 	static GXRModeObj *rmode;
+	StateManager *stateManager;
+	
 
 	CoreManager(); //Tenelos que iniciar todos los recursos
 

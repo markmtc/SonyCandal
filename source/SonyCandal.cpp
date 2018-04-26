@@ -12,11 +12,11 @@
 //---------------------------------------------------------------------------------
 int main(int argc, char **argv) {
 //---------------------------------------------------------------------------------
-
    	CoreManager *core = CoreManager::getSingletonPtr();
 	core->run();
 	delete(core);
-	
+	return 0;
+}
 
 	// Initialise the video system
 	// VIDEO_Init();
@@ -64,5 +64,4 @@ int main(int argc, char **argv) {
 	// 	VIDEO_WaitVSync();
 	// }
 
-	return 0;
-}
+
