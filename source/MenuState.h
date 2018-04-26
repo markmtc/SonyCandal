@@ -19,6 +19,8 @@ class MenuState
 		
 		void enter() { /* Dibujar menú */ }
 		void leave() { /* Limpiar menú */ }
+		void pause() { }
+    	void resume() { }
 		void update(double timeElapsed) { /* Mirar entrada de datos y actuar */	}
 };
 #endif
