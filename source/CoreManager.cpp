@@ -5,6 +5,11 @@
 #include "GameState.h"
 #include "MenuState.h"
 
+#include <SDL/sdl.h>
+
+SDL_Surface* screen=NULL;
+
+
 CoreManager *CoreManager::m_CoreManager;
 void *CoreManager::xfb = NULL;
 GXRModeObj *CoreManager::rmode = NULL;
